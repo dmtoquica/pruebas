@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Libros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Carrito de Libros</h1>
+
+  <!-- Formulario para agregar un libro -->
+  <h2>Agregar un libro</h2>
+  <form id="add-book-form">
+    <input type="text" id="titulo" placeholder="Título del libro" required>
+    <input type="text" id="autor" placeholder="Autor" required>
+    <input type="number" id="precio" placeholder="Precio" required>
+    <input type="number" id="cantidad" placeholder="Cantidad" required>
+    <button type="submit">Agregar al carrito</button>
+  </form>
+
+  <!-- Lista de libros -->
+  <h2>Lista de Libros</h2>
+  <ul id="book-list"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Estilos del formulario de agregar libro */
+  #add-book-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #add-book-form input,
+  #add-book-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  #add-book-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #add-book-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilos de la lista de libros */
+  #book-list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  #book-list li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #book-list li strong {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  #book-list button {
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #book-list button:hover {
+    background-color: #e53935;
+  }
+  
+  /* Estilo de los mensajes de error o éxito */
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .success-message {
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
